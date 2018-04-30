@@ -7,7 +7,7 @@ import Input from 'muicss/lib/react/input';
 import Radio from 'muicss/lib/react/radio';
 import Checkbox from 'muicss/lib/react/checkbox';
 
-import ComponentsPredicted from '../../crop_detect/compoenents_map.json';
+import ComponentsPredicted from '../../compoenents_map.json';
 import {each} from 'lodash'
 import './App.css'
 class App extends React.Component {
