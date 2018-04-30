@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.mui-appbar .mui-textfield > input {
+    background: rgba(255, 255, 255, 0.479) !important;
+    padding: 12px;
+    border-color: transparent;
+    width: 600px;
+    border-radius: 2px;
+    color: white;
+}
+.mui-appbar .mui-textfield ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.815) !important;
+    opacity: 1; /* Firefox */
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    max-width: 400px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card.card-simple {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 241, 38);
+    color: #222;
+}
+.card-simple > .heading {
+    font-size: 18px;
+}
+.card-simple > .desc {
+    font-size: 12px;
+}
+.card.card-full {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    color: #222;
+}
+.card-full > .heading {
+    font-size: 18px;
+}
+.card-full > .desc {
+    font-size: 12px;
+}
+.card-full > .actions {
+    padding-top: 16px;
+    display: flex;
+}
